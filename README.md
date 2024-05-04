@@ -1,4 +1,5 @@
 # REFLEX EGG FOR PTERODACTYL
+[![Python](https://img.shields.io/badge/Python-3.12-yellow?style=for-the-badge&logo=Python&logoColor=white&labelColor=101010)](https://reflex.dev)
 [![Reflex](https://img.shields.io/badge/Reflex-WEB-5646ED?style=for-the-badge&logo=reflex&logoColor=white&labelColor=101010)](https://reflex.dev) ➡️
 [![Pterodactyl](https://img.shields.io/badge/Pterodactyl-logic&static-blue?style=for-the-badge&logo=pterodactyl&logoColor=white&labelColor=101010)](https://pterodactyl.io/)
 
