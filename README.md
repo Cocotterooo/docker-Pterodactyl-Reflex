@@ -52,5 +52,7 @@ Repository
       en tu archivo de **"requirements"** (entre ellos tu versión de reflex). Una vez esté completada la instalación
       intentará hacer un `reflex init` de tu app y posteriormente intentará desplegarla en producción con
       `reflex run --env prod --loglevel debug` lo que implica que desplegará tanto el Frontend como también el Backend de tu aplicación.
+- [x] Al iniciar normalmente la instancia, se hará una Pull Request para igualar la versión de la app a la última del repositorio en la
+      rama elegida. Después inivcializará la app y la desplegará en producción como en el punto anterior.
 - [x] ¡Y listo! ¡Ya tienes funcionando en Pterocatyl tu aplicación de Reflex 😯🌟!
   
