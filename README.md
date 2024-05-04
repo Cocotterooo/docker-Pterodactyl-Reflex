@@ -15,7 +15,8 @@ realizadas con [Reflex](https://reflex.dev/) tanto la parte estática como la l�
  - Una vez Inicies la instancia, se deberá clonar el repositorio de tu app, en la raíz, si tienes variables de entorno
    crea tu archivo .env correspondiente.
 > [!CAUTION]
-> Nunca edites ningún archivo de tu app dentro del contenedor, exceptuando tu archivo **.env**
+> Nunca edites ningún archivo de tu app dentro del contenedor, exceptuando tu archivo **.env**, si lo
+> haces... en la próxima actualización del repositorio de tu app, tendrás que reinstalar la instancia
 
 ## Compatibilidad:
 - La intancia de Pterodactyl debe tener 2 puertos disponibles, (por defecto 3000:front y 8000:back)
@@ -44,11 +45,12 @@ Repository
 > o el arvhivo **.env** si lo prefieres... **pero en Pterodactyl debe estar así dispuesto.**
 
 ## FUNCIONAMIENTO:
-- [x] Al instalar la instancia se utilizará una imagen docker que incluirá Python 3.12 y el paquete unzip ya que lo requiere Reflex durante las inicializaciones.
+- [x] Al instalar la instancia se utilizará una imagen docker que incluirá Python 3.12 y el paquete unzip ya que lo
+      requiere Reflex durante las inicializaciones.
 - [x] Al iniciar por primera vez o sin existir el archivo **.git** intentará clonar tu repositorio en primer nivel, después
-    creará un entorno virtual, instalará los paquetes necesarios para el funcionamiento de tu app si están listados 
-    en tu archivo de **"requirements"** (entre ellos tu versión de reflex). Una vez esté completada la instalación intentará hacer un `reflex init` de tu app
-    y posteriormente intentará desplegarla en producción con `reflex run --env prod --loglevel debug` lo que implica que desplegará tanto el Frontend como 
-    también el Backend de tu aplicación.
+      creará un entorno virtual, instalará los paquetes necesarios para el funcionamiento de tu app si están listados 
+      en tu archivo de **"requirements"** (entre ellos tu versión de reflex). Una vez esté completada la instalación
+      intentará hacer un `reflex init` de tu app y posteriormente intentará desplegarla en producción con
+      `reflex run --env prod --loglevel debug` lo que implica que desplegará tanto el Frontend como también el Backend de tu aplicación.
 - [x] ¡Y listo! ¡Ya tienes funcionando en Pterocatyl tu aplicación de Reflex 😯🌟!
   
