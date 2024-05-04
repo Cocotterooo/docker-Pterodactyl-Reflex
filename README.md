@@ -20,7 +20,7 @@ realizadas con [Reflex](https://reflex.dev/) tanto la parte estática como la l�
 > haces... en la próxima actualización del repositorio de tu app, tendrás que reinstalar la instancia
 
 ## Compatibilidad:
-- La intancia de Pterodactyl debe tener 2 puertos disponibles, (por defecto 3000:front y 8000:back)
+- La instancia de Pterodactyl debe tener 2 puertos disponibles para desplegar tanto el frontend como el backend (por defecto 3000:front y 8000:back)
 - Estructura de tu proyecto:
 ```
 Repository
